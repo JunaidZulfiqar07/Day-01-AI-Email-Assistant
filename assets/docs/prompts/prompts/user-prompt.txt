@@ -1,0 +1,14 @@
+Write a professional email.
+
+Recipient Name: {{ $json.Name }}
+
+Purpose: {{ $json.Purpose }}
+
+Tone: {{ $json['Tone '] }}
+
+Additional Instructions:
+{{ $json['Extra Instructions'] }}
+
+Use only the provided information.
+Never use placeholders such as [Your Name], [Company], [University], or [Date].
+If information is unavailable, write naturally without placeholders.
